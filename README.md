@@ -13,7 +13,7 @@ ros2 launch urk_ur_launch ur_cocohrip_moveit.launch.py
 ```
 ros2 launch robotiq_hande_ros2_driver gripper_bringup.launch.py
 ```
-4. In 4th terminal launch Leap Motion sensor:
+4. In 4th terminal launch Leap Motion sensor (optional):
 ```
 ros2 run leap_gesture_interface leap_example_node
 ```
