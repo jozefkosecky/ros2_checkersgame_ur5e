@@ -21,7 +21,7 @@ ros2 run leap_gesture_interface leap_example_node
 ```
 ros2 launch robot_control robot_control_launch.py 
 ```
-5. In 5th terminal launch main program for camera Ximea and game logic:
+6. In 6th terminal launch main program for camera Ximea and game logic:
 ```
 ros2 launch checkers_game checkers_game_launch.launch.py
 ```
