@@ -9,7 +9,7 @@ ros2 launch urk_ur_launch ur5e_cocohrip.launch.py
 ```
 ros2 launch urk_ur_launch ur_cocohrip_moveit.launch.py
 ```
-3. In 3rd termina launch gripper Robotiq Hand-E:
+3. In 3rd terminal launch gripper Robotiq Hand-E:
 ```
 ros2 launch robotiq_hande_ros2_driver gripper_bringup.launch.py
 ```
