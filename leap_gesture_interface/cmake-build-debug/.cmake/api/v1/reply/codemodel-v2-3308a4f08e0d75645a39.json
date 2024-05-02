@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-0a03f617df5ae4ae9c39.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "leap_gesture_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "gesture_interface_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gesture_interface_node-Debug-1c907b659ac1e1ee7bda.json",
+					"name" : "gesture_interface_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_example_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_example_node-Debug-ffb7145882cfdda562c9.json",
+					"name" : "leap_example_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leap_gesture_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leap_gesture_interface_uninstall-Debug-21839b97c1bf85daf3b8.json",
+					"name" : "leap_gesture_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "libExampleConnection::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-libExampleConnection-Debug-68486fe8b4e2fa613e77.json",
+					"name" : "libExampleConnection",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-58d5d8029f0f9a57321b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/collab/collab_ws/src/leap_gesture_interface/cmake-build-debug",
+		"source" : "/home/collab/collab_ws/src/leap_gesture_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
