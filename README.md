@@ -32,7 +32,7 @@ if you run it on linux you can get: ximea camera memory leak error. TEMPORARY CO
 echo 0 | sudo tee /sys/module/usbcore/parameters/usbfs_memory_mb
 ```
 
-### How to run following task from terminal
+## How to run following task from terminal
 1. Resume robot movement:
 ```
 ros2 service call /resume_movement checkers_msgs/srv/ResumeMovement 
