@@ -27,7 +27,7 @@ ros2 launch checkers_game checkers_game_launch.launch.py
 ```
 
 ## Ximea camera error
-if you run it on linux you can get: ximea camera memory leak error. TEMPORARY COMMAND for fix:
+If you run it on Linux, you may encounter a XIMEA camera memory leak error. Here is a temporary command to fix it:
 ```
 echo 0 | sudo tee /sys/module/usbcore/parameters/usbfs_memory_mb
 ```
