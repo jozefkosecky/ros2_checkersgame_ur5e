@@ -26,6 +26,12 @@ ros2 launch robot_control robot_control_launch.py
 ros2 launch checkers_game checkers_game_launch.launch.py
 ```
 
+## Ximea camera error
+if you run it on linux you can get: ximea camera memory leak error. TEMPORARY COMMAND for fix:
+```
+echo 0 | sudo tee /sys/module/usbcore/parameters/usbfs_memory_mb
+```
+
 ### How to run following task from terminal
 1. Resume robot movement:
 ```
